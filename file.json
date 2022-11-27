@@ -1,0 +1,42 @@
+{
+  "User.cb1e18ec-3745-4900-ad72-8007f099ead6": {
+    "updated_at": "2022-11-22T22:45:01.778697",
+    "id": "cb1e18ec-3745-4900-ad72-8007f099ead6",
+    "created_at": "2022-11-22T22:45:01.778697",
+    "__class__": "User",
+    "first_name": "john"
+  },
+  "User.e1bdd47f-c335-4538-98ee-8c4b4f12d5c1": {
+    "updated_at": "2022-11-22T22:47:22.425267",
+    "id": "e1bdd47f-c335-4538-98ee-8c4b4f12d5c1",
+    "created_at": "2022-11-22T22:47:22.425267",
+    "email": "airbnb2@gmail.com",
+    "name": "asdf",
+    "__class__": "User"
+  },
+  "Amenity.e8a55a85-1a2e-40ca-b636-ad7451407db9": {
+    "updated_at": "2022-11-22T23:08:13.372775",
+    "id": "e8a55a85-1a2e-40ca-b636-ad7451407db9",
+    "created_at": "2022-11-22T23:08:13.372775",
+    "name": "eg",
+    "__class__": "Amenity"
+  },
+  "State.e8bd8102-37fb-4e4c-a56d-f94d66f58e21": {
+    "updated_at": "2022-11-22T23:12:29.378636",
+    "id": "e8bd8102-37fb-4e4c-a56d-f94d66f58e21",
+    "created_at": "2022-11-22T23:12:29.378636",
+    "__class__": "State"
+  },
+  "BaseModel.682db1a0-6981-40d7-bab9-2388f7c50bc3": {
+    "updated_at": "2022-11-22T23:42:35.953954",
+    "id": "682db1a0-6981-40d7-bab9-2388f7c50bc3",
+    "created_at": "2022-11-22T23:42:35.953954",
+    "__class__": "BaseModel"
+  },
+  "BaseModel.86362d12-d9b6-4566-b7c6-637d90a917c4": {
+    "updated_at": "2022-11-22T23:42:37.158608",
+    "id": "86362d12-d9b6-4566-b7c6-637d90a917c4",
+    "created_at": "2022-11-22T23:42:37.158608",
+    "__class__": "BaseModel"
+  }
+}
