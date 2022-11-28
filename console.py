@@ -49,6 +49,8 @@ JSON file storage and prints the id of the created Model'''
         arg_arr = arg.split(' ')
         if not arg_arr[0]:
             print('** class name missing **')
+            items = storage.all()
+            [print(items[f'{item}']) for item in items]
             return
         elif arg_arr[0] not in HBNBCommand.__classes:
             print("** class doesn't exist **")
