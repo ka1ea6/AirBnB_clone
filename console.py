@@ -110,7 +110,7 @@ on the class name and id'''
             print("** no instance found **")
             return
 
-    def do_destory(self, arg):
+    def do_destroy(self, arg):
         '''Deletes an instance based on the class name and'''
         arg_arr = arg.split(' ')
         if not arg_arr[0]:
