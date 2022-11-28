@@ -112,7 +112,6 @@ on the class name and id'''
 
     def do_destory(self, arg):
         '''Deletes an instance based on the class name and'''
-        print("here")
         arg_arr = arg.split(' ')
         if not arg_arr[0]:
             print('** class name missing **')
