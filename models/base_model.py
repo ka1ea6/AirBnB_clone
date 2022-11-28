@@ -13,7 +13,8 @@ class BaseModel(object):
     def __init__(self, *args, **kwargs):
         if kwargs:
             self.__dict__ = {
-                **kwargs, "created_at": datetime.fromisoformat(kwargs['created_at']),
+                **kwargs, "created_at":
+                datetime.fromisoformat(kwargs['created_at']),
                 "updated_at": datetime.fromisoformat(kwargs['updated_at']),
                 "__class__": ""
             }

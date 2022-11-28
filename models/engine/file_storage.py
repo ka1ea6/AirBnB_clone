@@ -51,7 +51,8 @@ class FileStorage:
             return clean_attr_value[0]
 
     def remove(self, obj_id):
-        '''Public instance method to delete a certain element from the dictionary'''
+        '''Public instance method to delete a
+         certain element from the dictionary'''
         try:
             del self.__objects[f'{obj_id}']
             self.save()
@@ -62,7 +63,8 @@ class FileStorage:
     def save(self):
         currObjs = FileStorage.__objects
         objDict = {obj: currObjs[obj].to_dict() for obj in currObjs.keys()}
-        with open(f'{FileStorage.__file_path}', 'w', encoding='utf8') as file_db:
+        fileName = FileStorage.__file_path
+        with open(f'{fileName}', 'w', encoding='utf8') as file_db:
             json.dump(objDict, file_db)
 
     def reload(self):
