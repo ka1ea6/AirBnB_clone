@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+'''Modlue for implementing a python command line interpreter'''
 import cmd
 import re
 
