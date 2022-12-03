@@ -28,36 +28,63 @@
     padding: 8px 0;
 }
 .information {
-    /* border-bottom: 1px solid #ddd;
-    border-top: 1px solid #ddd; */
-    border: 1px solid red;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
     
     height: 80px;
     margin: auto;
     /* padding-left: 0 50px; */
     /* padding: 0 10%; */
+    position: relative;
 }
 .information .max_guest {
+    display: inline-block;
+    margin: auto;
     background-image: url("../images/icon_group.png");
     background-repeat: no-repeat;
-    float: left;
+    background-position-x: center;
+    background-position-y: top;
+    /* float: left; */
     width: 100px;
     height: 80px;
-    border: 1px solid red;
+    line-height: 120px;
+
+    /* text-align: center; */
 }
 .information .number_rooms {
+    display: inline-block;
+    margin: auto;
+
     background-image: url("../images/icon_bed.png");
     background-repeat: no-repeat;
-    float: left;
+    background-position-x: center;
+    background-position-y: top;
+
+    /* float: left; */
     height: 80px;
     width: 100px;
-    border: 1px solid red;
+    line-height: 120px;
 }
 .information .number_bathrooms {
-    border: 1px solid red;
+    display: inline-block;
+    margin: auto;
+
     background-image: url("../images/icon_bath.png");
     background-repeat: no-repeat;
-    float: left;
+    background-position-x: center;
+    background-position-y: top;
+
+    /* float: left; */
     height: 80px;
     width: 100px;
+    line-height: 120px;
+}
+.user {
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+}
+.description{
+    display: block;
+    text-align: left;
 }
