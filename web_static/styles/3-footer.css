@@ -1,6 +1,6 @@
 footer {
   box-sizing: border-box;
-  
+
   background-color: #fff;
 
   height: 60px;
@@ -11,6 +11,6 @@ footer {
   text-align: center;
   padding: 20px 0;
 
-  position: absolute;
+  position: fixed;
   bottom: 0;
 }

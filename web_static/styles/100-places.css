@@ -14,7 +14,6 @@
   box-sizing: border-box;
   float: left;
   width: 390px;
-  height: max-content;
   padding: 20px;
   margin: 20px;
   border: 1px solid #ff5a5f;
@@ -96,5 +95,69 @@
 }
 .description {
   display: block;
+  text-align: left;
+}
+article .amenities {
+  margin-top: 40px;
+}
+article .amenities h2 {
+  font-size: 16px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+article .amenities ul {
+  padding: 0;
+}
+.pet-friendly {
+  background-image: url("../images/icon_pets.png");
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-size: contain;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+}
+.tv {
+  background-image: url("../images/icon_tv.png");
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-size: contain;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+}
+.wifi {
+  background-image: url("../images/icon_wifi.png");
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-size: contain;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+}
+article .amenities ul {
+  text-align: left;
+}
+article .reviews {
+  margin-top: 40px;
+}
+
+article .reviews h2 {
+  font-size: 16px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+article .reviews ul {
+  padding: 0;
+}
+article .reviews ul li {
+  line-height: 8px;
+}
+article .reviews ul li h3 {
+  font-size: 14px;
+  text-align: left;
+}
+article .reviews ul li p {
+  font-size: 14px;
   text-align: left;
 }

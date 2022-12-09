@@ -1,4 +1,16 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #484848;
+  /* font-size: 14px; */
+  font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow-y: scroll;
+}
+
 .container {
-    max-width: 1000px;
-    margin: 30px auto;
+  max-width: 1000px;
+  margin: 30px auto;
+  margin-bottom: 100px;
+  /* overflow-y: scroll ; */
 }
